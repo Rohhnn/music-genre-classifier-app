@@ -12,9 +12,7 @@ Weights are downloaded at runtime from Hugging Face — this repo only holds the
 
 ## What this app does
 
-Upload a WAV/MP3; the model predicts among blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, and rock. Predictions average 5 time-spaced crops (TTA).
-
-Reported Kaggle macro F1: **0.9314** (val F1 0.9763).
+Upload a WAV/MP3 file and the model predicts the genre of the song among blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, and rock. Predictions average 5 time-spaced crops (TTA).
 
 ## Run locally
 
@@ -35,4 +33,4 @@ streamlit run app.py
 
 This repository exists **only for Streamlit Cloud**. Training code, notebooks, and the report live in the [full project repo](https://github.com/Rohhnn/music-genre-classifier).
 
-Originally built in an academic setting (IIT Madras BS — Intro to DL & GenAI; Messy Mashup competition).
+Originally built for a course project (IIT Madras — Intro to DL & GenAI; Messy Mashup competition).
